@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #e8e8f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    width: 100%;
+    background-color: #2e5c70;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .container {
+    background: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .tarefa {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .tarefa input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .tarefa span {
+    flex-grow: 1;
+    padding: 8px;
+    background: #ddd;
+    border-radius: 8px;
+  }
+
+  .tarefa .remover {
+    background: none;
+    border: none;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .add-btn {
+    display: block;
+    margin: 20px auto 0;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .novo-input {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .novo-input input {
+    flex: 1;
+    padding: 8px;
+  }
+
+  .novo-input button {
+    padding: 8px 12px;
+    background-color: #2e5c70;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }

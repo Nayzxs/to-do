@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="css/lista.css">
+</head>
+<body>
+   <header>Lista de tarefas</header>
+
+  <div class="container">
+    <div id="lista"></div>
+
+    <div class="novo-input" id="novoInput" style="display: none;">
+      <input type="text" id="novaTarefa" placeholder="Nova tarefa">
+      <button onclick="add()">Salvar</button>
+    </div>
+  </div>
+
+  <button class="add-btn" onclick="showInput()">+</button>
+
+  <script src="/js/lista.js"></script>
+</body>
+</html>
